@@ -1,0 +1,14 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+%matplotlib.inline
+import seaborn as sns
+india_daily=pd.read_csv("../input/covid19/Daily_India_covid-19.csv")
+india_states_confirmed=pd.read_csv("../input/covid19/Daily_States_Confirmed_india.csv")
+india_states_deaths=pd.read_csv("../input/covid19/Daily_States_Deaths_india.csv")
+india_states_daily=pd.read_csv("../input/covid19/Daily_States_India.csv")
+india_states_recover=pd.read_csv("../input/covid19/Daily_States_Recovered_india.csv")
+india_total=pd.read_csv("../input/covid19/Total_India_covid-19.csv")
+maha_total=pd.read_csv("../input/covid19/Total_Maharashtra_covid-19.csv")
+us_total=pd.read_csv("../input/covid19/Total_US_covid-19.csv")
+world_total=pd.read_csv("../input/covid19/Total_World_covid-19.csv")
